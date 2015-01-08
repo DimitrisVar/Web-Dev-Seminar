@@ -1,0 +1,73 @@
+body {
+	background-color: #96a8c8;
+	font-size: 10px;
+	color: #333;
+}
+#header {
+	background-color: white;	
+	border-style: solid;
+	margin: 30px 300px 12px 300px;
+	padding: 5px 1px 1px 30px;
+	font-family: arial;
+}
+#header a {
+	text-decoration: none;
+	border-bottom: 1px black dashed;
+
+}
+#header h1 {
+	font-size: 35px;
+	font-weight: bold;
+}
+#header h2 {
+	font-size: 26px;
+}
+#header p{
+	color: #333;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+#comic {
+	background-color: white;
+	border-style: solid;
+	font-family: arial; 
+	text-align: center;
+	margin: 2px 300px 12px 300px;
+	padding: 20px 1px 1px 30px;
+}
+#menu {
+	background-color: white;
+	border-style: solid;
+	background: #eee url("menu.png") no-repeat right bottom;
+	margin: 2px 300px 12px 300px;
+	padding: 25px 10px 20px 50px;
+	font-size: 20px;
+	line-height: 39px;
+}
+#menu a {
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+	border-bottom: 1px black dotted;
+}
+#header b {
+	font-size: 17px;
+	font-weight: bold;
+}
+span.romance {
+	color: #ac2d2d;
+}
+span.sarcasm {
+	color: #30ac2d;
+}
+span.math {
+	color: #2d45ac;
+}
+span.language {
+	color: #e99613;
+}
+strong {
+	background-color: #fc6;
+}
