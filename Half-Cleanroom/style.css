@@ -1,7 +1,7 @@
 body {
 	background-color: #96a8c8;
 	font-size: 10px;
-	color: #333;
+	color: black;
 }
 #header {
 	background-color: white;	
@@ -27,7 +27,6 @@ body {
 	font-family: serif;
 	font-weight: bold;
 	font-size: 14px;
-
 }
 #comic {
 	background-color: white;
@@ -35,14 +34,23 @@ body {
 	font-family: arial; 
 	text-align: center;
 	margin: 2px 300px 12px 300px;
-	padding: 20px 1px 1px 30px;
+	padding: 12px 5px 12px 30px;
+	font-size: 16px;
+	line-height: 1px;
+}
+#comic h2 {
+	padding: 1px 19px 12px 30px;
+}
+#comic p {
+	padding: 10px 1px 1px 1px;
+	font-style: italic;
 }
 #menu {
 	background-color: white;
 	border-style: solid;
 	background: #eee url("menu.png") no-repeat right bottom;
 	margin: 2px 300px 12px 300px;
-	padding: 25px 10px 20px 50px;
+	padding: 25px 10px 30px 50px;
 	font-size: 20px;
 	line-height: 39px;
 }
